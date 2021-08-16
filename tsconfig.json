@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "strictNullChecks": true,
+    "target": "es2015",
+    "outDir": "lib",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "lib": ["es2015"],
+    "rootDir": "./",
+    "esModuleInterop": true
+  },
+  "include": ["src", "index.ts"],
+  "exclude": ["node_modules"]
+}
